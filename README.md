@@ -1,7 +1,7 @@
 # Description
 Batch change file creation/modification/access time.
 
-#Usage:
+# Usage:
 ```
   -d string
         specifiy directory to process
@@ -21,7 +21,7 @@ Batch change file creation/modification/access time.
             @C=@@,@M=@@ : change creation and modification time to the earliest one
 ```
 
-#For Example:
+# For Example:
 Recursive directory `D:\Users\lauthrul\Pictures\Wallpaper` and change creation/modification/access time to the earliest one:
 <br>
 `FileTimeModifier.exe -d "D:\Users\lauthrul\Pictures\Wallpaper" -r -s "@C=@@,@M=@@,@A=@@"`
