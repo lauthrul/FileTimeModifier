@@ -63,7 +63,6 @@ func main() {
 	if p.dir != "" {
 		if err := enumerateFiles(p.dir, p.recursive, &files); err != nil {
 			fmt.Println(err)
-			return
 		}
 	}
 
